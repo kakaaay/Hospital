@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".USTHome">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:background="@drawable/logo" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/line" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ABOUT"
+        android:id="@+id/textView"
+        android:linksClickable="true"
+        android:clickable="true"
+        android:textColor="#ffffb735"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="SERVICES"
+        android:id="@+id/textView2"
+        android:linksClickable="true"
+        android:clickable="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="APPOINTMENT"
+        android:id="@+id/textView3"
+        android:linksClickable="true"
+        android:clickable="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_toLeftOf="@+id/imageView3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:background="@drawable/contact"
+        android:layout_above="@+id/imageView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The UST Hospital, our premier medical facility, is a non-stock, non-profit hospital. Its primary mission is to provide the best quality healthcare possible, especially to our less fortunate brothers and sisters.  The UST Hospital trains young men and women in the medical arts and science, through clinical exposure and research, and ultimately molds them towards the professional care of patients, with compassion and love.  Your Hospital currently maintains 460 dedicated beds for charity or clinical patients. These are financially sustained by just 352 private patient beds, of which the resulting revenues support and delimit the extent of charity to the sick and poor in the clinical or charity beds.  To sustain the ever-expanding needs of our sick and poor patients, the UST Hospital must maintain and in fact expand its paying or private division.  But first, our deepest gratitude must be given to the following:  Our Paying, or Private Patients, for entrusting their care to The UST Hospital for these past fifty-nine years;  Our devoted Medical Staff, for their selfless and tireless professional services and expertise, rendered gratis, that the physical, emotional and spiritual ailments of thousands of poor patients may be alleviated, year after year;  Our dear Employees, Volunteers and Non-Medical Staff, for generously cooperating with the Hospital in helping fulfill its mission;  We specially thank our Generous Benefactors, Sponsors and Partners, for continuously believing in The UST Hospital and its noble mission, delivering the blessings of good health to those who have less in life;  And finally, we humbly and sincerely thank The Supreme Healer, for guiding us to do the best we can to ease the suffering of our brothers and sisters."
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView"
+        android:layout_toRightOf="@+id/scrollView"
+        android:textSize="20dp" />
+
+</RelativeLayout>
